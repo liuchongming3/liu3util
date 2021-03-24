@@ -40,6 +40,7 @@ public class ImagePageProcessor implements PageProcessor {
 
     @Override
     public void process(Page page) {
+
         //将匹配到的链接都存储到links集合中
         //https://i03piccdn.sogoucdn.com/b870cf141a325aec
         List<String> links = page.getHtml().regex("https://i03piccdn\\.sogoucdn\\.com/\\S+").all();
