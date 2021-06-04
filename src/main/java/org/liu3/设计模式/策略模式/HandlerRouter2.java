@@ -1,4 +1,4 @@
-package org.liu3.策略模式;
+package org.liu3.设计模式.策略模式;
 
 /**
  * @Author: liutianshuo
