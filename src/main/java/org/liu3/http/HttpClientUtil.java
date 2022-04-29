@@ -33,7 +33,11 @@ public class HttpClientUtil {
                 .build();
 
     }
-
+    
+    public static void main(String[] args) throws Exception {
+        String s = HttpClientUtil.get("http://localhost:8080/cmdbDiscover/resources/tui/components/tuiValidate/tui_validator.js");
+        System.out.println(s);
+    }
     public static String get(String url) throws Exception {
         HttpGet get = new HttpGet(url);
         get.setConfig(default_config);
