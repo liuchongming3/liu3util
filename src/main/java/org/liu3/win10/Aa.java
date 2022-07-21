@@ -6,7 +6,7 @@ package org.liu3.win10;
  */
 public interface Aa {
 
-    private static String aa(){
-        return "123";
-    }
+//    private static String aa(){
+//        return "123";
+//    }
 }

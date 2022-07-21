@@ -29,7 +29,7 @@ public class CmdTest {
                 break;
         }
 
-        var aa = "123";
+//        var aa = "123";
 //        folderCopy("d:/1.txt","d:/3.txt");
 //        synCmd();
         Runtime runtime = Runtime.getRuntime();
