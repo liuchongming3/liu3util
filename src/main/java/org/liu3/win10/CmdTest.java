@@ -20,7 +20,7 @@ public class CmdTest {
     public static void main(String[] args) throws Exception {
         String a = "13";
         int b = 0;
-        switch (a){
+        switch (a) {
             case "1":
                 b = 1;
                 break;
@@ -44,14 +44,13 @@ public class CmdTest {
         System.out.println(StringUtils.leftPad("1234", 13, '0'));
 
 
-
     }
 
     /**
      * 一般cmd都是异步运行的方式，也就是在执行命令之后会不等exec执行完就执行下一条语句，
      * 为了实现同步结果，或者为了获取返回的结果
      */
-    public static void synCmd(){
+    public static void synCmd() {
         long start = System.currentTimeMillis();
         String srcPath = "C:/Users/liqiang/Desktop/ww/tt.docx";
         String desPath = "C:/Users/liqiang/Desktop/ww";
@@ -112,13 +111,13 @@ public class CmdTest {
         runtime.exec("d:/cmd.exe echo 123 > d:/1.txt && echo 321 d:/2.txt");
     }
 
-    public static void memory(){
+    public static void memory() {
         long totalMemory = Runtime.getRuntime().totalMemory();//总内存
         long freeMemory = Runtime.getRuntime().freeMemory();//剩余内存
         long maxMemory = Runtime.getRuntime().maxMemory();//最大内存
-        System.out.println(totalMemory/1024/1024+"MB");
-        System.out.println(freeMemory/1024/1024+"MB");
-        System.out.println(maxMemory/1024/1024+"MB");
+        System.out.println(totalMemory / 1024 / 1024 + "MB");
+        System.out.println(freeMemory / 1024 / 1024 + "MB");
+        System.out.println(maxMemory / 1024 / 1024 + "MB");
     }
 
     static class StreamGobbler extends Thread {
@@ -157,9 +156,9 @@ public class CmdTest {
                 e.printStackTrace();
             } finally {
                 try {
-                    if(pw!=null) pw.close();
-                    if(br!=null) br.close();
-                    if(isr!=null) isr.close();
+                    if (pw != null) pw.close();
+                    if (br != null) br.close();
+                    if (isr != null) isr.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
