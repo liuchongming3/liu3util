@@ -27,7 +27,7 @@ public class Nashorn {
     public static void main(String[] args) throws Exception {
 
 
-//        String url = "http://www.baidu.com";
+//        String url = "http://www.baidu.com";//1
 //        url = "http://m.taduo.net/manhua/24/402.html";
 //
 //        String data = HttpClientUtil.get(url);
