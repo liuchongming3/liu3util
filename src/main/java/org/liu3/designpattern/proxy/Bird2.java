@@ -1,4 +1,4 @@
-package org.liu3.设计模式.代理模式;
+package org.liu3.designpattern.proxy;
 
 /**
  * @Author: liutianshuo

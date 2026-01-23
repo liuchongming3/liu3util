@@ -2,19 +2,9 @@ package org.liu3.crawler.htmlparser;
 
 import jdk.nashorn.api.scripting.NashornScriptEngine;
 import jdk.nashorn.api.scripting.ScriptObjectMirror;
-import org.apache.commons.codec.binary.Base64;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-import org.liu3.http.HttpClientUtil;
-import sun.misc.BASE64Decoder;
 
-import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * @Author: liutianshuo

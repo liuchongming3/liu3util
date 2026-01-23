@@ -1,6 +1,6 @@
-package org.liu3.设计模式.代理模式;
+package org.liu3.designpattern.proxy;
 
-import sun.misc.ProxyGenerator;
+//import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;
 
@@ -13,7 +13,7 @@ public class ClassUtil {
     public static void saveClass(Object proxy){
         Class cls = proxy.getClass();
         System.out.println(cls);
-        byte[] classFile = ProxyGenerator.generateProxyClass("com.sun.proxy.$Proxy0", cls.getInterfaces());
+        byte[] classFile = null;//ProxyGenerator.generateProxyClass("com.sun.proxy.$Proxy0", cls.getInterfaces());
         String path = "D:/代理类.class";
 
         try(FileOutputStream fos = new FileOutputStream(path)) {

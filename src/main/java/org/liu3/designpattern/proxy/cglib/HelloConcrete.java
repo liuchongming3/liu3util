@@ -1,4 +1,4 @@
-package org.liu3.设计模式.代理模式.cglib;
+package org.liu3.designpattern.proxy.cglib;
 
 import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Factory;

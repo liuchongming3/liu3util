@@ -1,4 +1,4 @@
-package org.liu3.设计模式.代理模式;
+package org.liu3.designpattern.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
